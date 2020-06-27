@@ -1,3 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 4vh;
+}
+
 input {
   border: solid 1px black;
 }
@@ -24,18 +34,30 @@ input {
   border-radius: 4px;
 }
 
+td,
+th {
+  padding-right: 5vh;
+  padding-top: 2vh;
+  text-align: left;
+}
+
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #cf000f;
+  border-color: #cf000f;
 }
 
 .quantity {
   margin: 0 5px;
+}
+
+#calc {
+  margin-top: 8vh;
+  margin-bottom: 0;
 }
